@@ -1,0 +1,37 @@
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #fdc432;
+    color: white;
+    display: flex;
+}
+
+header span {
+    cursor: pointer;
+    padding: 0.8em;
+    margin: 0.2em;
+    background-color: #fdc460;
+    transition: all 0.6s;
+}
+
+header span:hover{
+    background-color: #fdc490;
+    color:black;
+}
+
+.movies{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.movie{
+    flex-direction:column;
+    padding: 0.5em;
+}
+
